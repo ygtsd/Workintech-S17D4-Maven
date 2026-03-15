@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS public.ogrenci
     puan integer,
     dtarih character varying(20) COLLATE pg_catalog."default",
     CONSTRAINT ogrenci_pkey PRIMARY KEY (ogrno)
+
 );
 
 CREATE TABLE public.islem
